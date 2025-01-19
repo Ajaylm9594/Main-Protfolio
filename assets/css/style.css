@@ -176,6 +176,8 @@ button {
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--body-color);
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 /* NAVBAR */
@@ -191,6 +193,11 @@ button {
 .nav_toggle {
   color: var(--title-color);
   font-weight: var(--font-medium);
+  
+}
+.nav_logo{
+  color: gold;
+  font-size: x-large;
 }
 
 .nav_logo:hover {
